@@ -33,6 +33,10 @@
         <br/><br/>
         The same explainer runs in the browser, alongside our other developer tools, at
         <a href="https://www.devxhub.com/tools/">devxhub.com/tools</a>.
+        <br/><br/>
+        <a href="https://donate.devxhub.com/">Donate</a> |
+        <a href="https://github.com/layesh/cron-explainer-plugin">GitHub</a> |
+        <a href="https://github.com/layesh/cron-explainer-plugin/issues">Issues</a>
     ]]></description>
 
     <!-- The minimum surface this plugin needs. Depending only on the platform

@@ -11,6 +11,14 @@ nothing written here ships with nothing to read.
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Changed
+
+- The plugin description now ends with Donate, GitHub and Issues links. The IDE's plugin
+  panel does not render the Marketplace's own donation field, so the description is the only
+  place a link reaches someone browsing from inside the IDE.
+
 ### Added
 
 - Completion inside a string that is going to hold a schedule: the expressions people actually
