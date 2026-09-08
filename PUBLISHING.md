@@ -200,6 +200,30 @@ when the status changes. The listing shows the previous version until approval c
 
 ---
 
+## 4a. Donations
+
+A listing field, not a descriptor field — nothing in `plugin.xml` or `build.gradle.kts`
+changes, and no release is needed.
+
+Plugin admin panel → **Monetization** tab → add the link and a title for it:
+
+| Field | Value |
+| --- | --- |
+| Link | `https://donate.devxhub.com/` |
+| Title | short label, e.g. `Support devxhub` |
+
+The donate option appears next to the Download button. JetBrains takes no commission and does
+not process the transaction, and it prompts users who rate the plugin 4–5 stars to donate.
+
+**Do not put a donation link in the plugin description.** JetBrains provides the dedicated
+field precisely so that descriptions stay free of them, and they reserve the right to remove
+links that appear elsewhere. The `<description>` in `plugin.xml` links to
+`devxhub.com/tools`, which is a product link rather than a donation one, and is fine.
+
+Because this is a listing field it can be edited or removed at any time without a release —
+the opposite of the VS Code extension, where the sponsor URL is baked into the published
+package.
+
 ## 5. Troubleshooting
 
 **`java.io.IOException: There is not enough space on the disk`** — Gradle's transforms cache.
