@@ -59,6 +59,11 @@ the sandbox IDE.
 Each language integration is optional at the descriptor level, so the plugin installs into
 IDEs that lack YAML, Java, Kotlin or Terraform support and the remaining halves keep working.
 
+## Publishing
+
+See [PUBLISHING.md](PUBLISHING.md) for the release routine, Marketplace setup, and the errors
+worth recognising. Section 4 is the routine; the rest is only needed when something is missing.
+
 ## Web version
 
 The same explainer runs in the browser, alongside our other developer tools, at
